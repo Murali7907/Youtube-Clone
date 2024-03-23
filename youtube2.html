@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"> </script> 
+    <script src="jquery.hoverplay.js"></script> 
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">9+</div>
+        </div>
+        <img class="current-user-picture" src="https://yt3.ggpht.com/yti/ADpuP3M6H75gVw5RjT9qP1DqXHRbQvK96bRM3Q37Ofx8Xw=s88-c-k-c0x00ffffff-no-rj">
+      </div>
+      
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtubeshorts.svg">
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>You</div>
+      </div>
+    </nav>
+    <main>
+      <ul class="tab">
+        
+        <button class="all">All</button>
+        
+        <button class="btn">Music</button> 
+        <button class="btn">Mixes </button>
+        <button class="btn">Gaming</button>
+       <button class="btn"> Movies</button>
+        <button class="btn">Reviews</button>
+        <button class="btn">Fitness</button>
+        <button class="btn">Ted</button>
+        <button class="btn">interview</button>
+        <button class="btn">Jobs</button>
+        <button class="btn">json</button>
+        <button class="btn">Sci-Fi Films</button>
+        <button class="btn"> API</button>
+        <button class="btn">Clash Of Clans</button>
+       <button class="btn"> Cooking</button>
+        <button class="btn">Thrillers</button>
+        <button class="btn">Computer Programing</button>
+       <button class="btn"> Coading</button>
+       <button class="btn"> Testing</button>
+        <button class="btn">google</button>
+        <button class="btn">Hashtags</button>
+        <button class="btn">LIVE</button>
+    
+        
+
+      </ul>
+     <br>
+     
+      <section class="video-grid">
+        
+        <div class="video-preview">
+          <div class="thumbnail-row">     
+            <div class="col-lg-2">     
+             <a href="https://www.youtube.com/watch?v=hAvsGDIAa48"><img src="images/image1.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKZYtytfxQYNZ9LBVuseRy4i-5cOQWkeS5iAmKt_zQ=s68-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Ajitha Hare - Aaroha | Official HD Music Video |
+              </p>
+              <p class="video-author">
+                Moviegang
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 6 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div class="col-lg-2">
+              <a href="https://www.youtube.com/watch?v=rpz1fKAgN1M&t=1s"><img src="images/image2.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+          </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.ggpht.com/95wnzE-y9VLVqN2_qvfaPh3CFpw9RRbPCoHXR6dYDdVhPCi3hk3pjF9muPjI8AWrU2Nq4VejWA=s176-c-k-c0x00ffffff-no-rj-mo">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Part 10 | Github Live Web Hosting | Web Designing Malayalam Tutorial
+              </p>
+              <p class="video-author">
+                Brototype Malayalam
+              </p>
+              <p class="video-stats">
+                19M views &#183; 4 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div class="col-lg-2">
+              <a href="https://www.youtube.com/watch?v=H3XIJYEPdus"><img src="images/image3.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+          </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.ggpht.com/j2GSWhMI1hscXQu7H6MH9A1_aQ25GsVFzyQ9revo9Gjh5t68zQUftrc65kMU7haF63NZ2t_s=s48-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                From Zero to Full Stack: Master JavaScript and Create Dynamic Web Apps
+              </p>
+              <p class="video-author">
+                HuXn WebDev
+              </p>
+              <p class="video-stats">
+                12M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div class="col-lg-2">
+              <a href="https://www.youtube.com/watch?v=t4TazsDnEQw&t=1s"><img src="images/image4.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+            </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKZzQGCAFm4jBqavQvWeqnEXL_3Xti9oUtU1mKg2=s48-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                EP - Sa Re Ga Ma Pa Keralam - Indian Malayalam TV Show - Zee Keralam
+              </p>
+              <p class="video-author">
+                Zee Keralam
+              </p>
+              <p class="video-stats">
+                18M views &#183; 4 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <div class="col-lg-2">
+            <a href="https://www.youtube.com/embed/fojPLOE150c"><img src="images/image5.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+            
+          </div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.googleusercontent.com/ytc/APkrFKbX5I7QRigmp4xY1PkSe5neweYxhJGOTizuQpqiTg=s176-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                When Biden Met Xi (and What&#39;s Going On with the US and China) | Ian Bremmer | TED
+              </p>
+              <p class="video-author">
+                TED<i class="fa-sharp fa-solid fa-badge-check"></i>
+              </p>
+              <p class="video-stats">
+                519K views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+           
+            <div class="col-lg-2">
+              <a href="https://www.youtube.com/watch?v=DYL-ZMQCrUo&t=1s"><img src="images/image6.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+              
+            </div>
+            
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKYfaOMPSaTvMLmknGz-hhFFZ4XQ3IyxoZM5vrbC=s48-c-k-c0x00ffffff-no-rj">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                "You&#39;re Living in the Matrix: Take Control of Your Life | Documentary | Malayalam #MatrixReality" 
+              </p>
+              <p class="video-author">
+               Motives Media
+              </p>
+              <p class="video-stats">
+                141M views &#183; 1 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+              
+            <div class="col-lg-2">
+              <a href="https://www.youtube.com/watch?v=0yo74luRr5k"><img src="images/image7.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+              
+            </div>
+              
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKZdXO4D0ioO3jNWqmsORIFs7DPVW_mfCeeqO1_9dQ=s48-c-k-c0x00ffffff-no-rj">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  'Squawk Box' crew react to Elon Musk's NYT DealBook Summit interview
+                </p>
+                <p class="video-author">
+                  CNBC Television
+                </p>
+                <p class="video-stats">
+                  142M views &#183; 1 year ago
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="video-preview">
+            <div class="thumbnail-row">
+              
+              <div class="col-lg-2">
+                <a href="https://www.youtube.com/watch?v=7x1J83nXOcY"><img src="images/image8.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+                
+              </div>
+              
+              
+            </div>
+            <div class="video-info-grid">
+              <div class="channel-picture">
+                <img class="profile-picture" src="https://yt3.ggpht.com/95wnzE-y9VLVqN2_qvfaPh3CFpw9RRbPCoHXR6dYDdVhPCi3hk3pjF9muPjI8AWrU2Nq4VejWA=s176-c-k-c0x00ffffff-no-rj-mo">
+              </div>
+              <div class="video-info">
+                <p class="video-title">
+                  Part 7 | jQuery | Web Designing Malayalam Tutorial
+                </p>
+                <p class="video-author">
+                  Brototype Malayalam
+                </p>
+                <p class="video-stats">
+                  19M views &#183; 4 years ago
+                </p>
+              </div>
+            </div>
+        </div>
+       
+
+
+
+
+              <div class="video-preview">
+            <div class="thumbnail-row">
+
+              <div class="col-lg-2">
+                <a href="https://www.youtube.com/watch?v=65nfbW-27ps"><img src="images/image9.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+                
+              </div>
+              
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" src="https://yt3.ggpht.com/cuqxF7cRM0dLTQHfrmMonV4EUPjHkKLIXs6R3rm7PhD0CIQOY2u0dqEhXqrY1JI7wqmmxBzrTd4=s48-c-k-c0x00ffffff-no-rj">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              AGE 12 TO MARRIED – I Took A Photo Every Day
+            </p>
+            <p class="video-author">
+              
+              Hugo Cornellier
+
+            </p>
+            <p class="video-stats">
+              255M views &#183; 6 year ago
+            </p>
+          </div>
+        </div>
+          </div>
+        </div>
+    
+
+
+      
+            <div class="video-preview">
+          <div class="thumbnail-row">
+            <div class="col-lg-2">
+              <a href="https://www.youtube.com/watch?v=O-PiFvnTkOI"><img src="images/image10.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+              
+            </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKY9G7S6ZQmg9HcKty_WmKeSL-ACTUxZU4uXEtI34A=s48-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            &quot;The North Remembers&quot; #ForTheThrone Clip | Game of Thrones | Season 7
+          </p>
+          <p class="video-author">
+            
+              GameofThrones
+
+          </p>
+          <p class="video-stats">
+            4.6 crore views &#183; 2 year ago
+          </p>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+
+<br>
+<br>
+<br>
+      
+      <div style="display:flex;">
+        <img class="shorts"src="icons/youtube-shorts-icon.svg">
+        <span class="sho">Shorts</span>
+        
+      </div>
+
+    
+
+      <section class="video-grid">
+
+      <div class="container" style="padding-left: 80px;justify-content: start;">
+      <div class="short">
+      <div class="video-short">
+        <div class="thumbnail">
+          <a href="https://www.youtube.com/shorts/8ZVg9T1YAS0"><img src="images/shorts1.png" width="241px" height="428px" style="border-radius: 10px;cursor: pointer;"></a>
+    <div class="video-info-grid">
+      <div class="video-info">
+        <p class="short-title">
+          How I Built My New Developer Portfolio Using AI #shorts
+        </p>
+        <p class="short-stats">
+          141M views
+        </p>
+      </div>
+    </div>
+  </div>
+    </div>
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/shorts/AJi3YMZ1QXY"><img src="images/shorts2.png" width="241px" height="428px" style="border-radius: 10px;cursor: pointer;"></a>
+    <div class="video-info-grid">
+      <div class="video-info">
+         <p class="short-title">
+          CMF by Nothing | Watch Pro | Update #shorts
+        </p>
+        <p class="short-stats">
+           1 lakh views
+        </p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/shorts/Tjv2IGTYNeM"><img src="images/shorts3.png" width="241px" height="428px" style="border-radius: 10px;cursor: pointer;"></a>
+    <div class="video-info-grid">
+      <div class="video-info">
+         <p class="short-title">
+          അത് പിന്നെ ഞാനും മമ്മൂക്കയും ഒകേ 😉😜|| Trending Mallu Memes || #memes #funny #comedy #troll
+        </p>
+        <p class="short-stats">
+          1M views
+        </p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/shorts/x7Sf1f9Nvw0"><img src="images/shorts4.png" width="241px" height="428px" style="border-radius: 10px;cursor: pointer;"></a>
+    <div class="video-info-grid">
+      <div class="video-info">
+         <p class="short-title">
+          juana. #englishgrammer
+        </p>
+        <p class="short-stats">
+          10 lakh views
+        </p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-preview">
+        <div class="thumbnail-row">
+          
+          <a href="https://www.youtube.com/shorts/O5LBsqwWd5c"><img src="images/shorts5.png" width="241px" height="428px" style="border-radius: 10px;cursor: pointer;"></a>
+          <div class="video-info-grid">
+      <div class="video-info">
+         <p class="short-title">
+          കളർ സെൻസ് ഇല്ലാത്തത് ഒരു തെറ്റാണോ 😂 #saafboi #shorts
+        </p>
+        <p class="short-stats">
+          22M views
+        </p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="video-preview">
+        <div class="thumbnail-row">
+          <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/shorts/fztTIrGAZHE"><img src="images/shorts6.png" width="241px" height="428px" style="border-radius: 10px;cursor: pointer;"></a>
+    <div class="video-info-grid">
+      <div class="video-info">
+         <p class="short-title">
+          Dr Tanu Jain about failures🔥. #shorts #motivation #inspiration
+        </p>
+        <p class="short-stats">
+          40 lakh views
+        </p>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+      </div>
+
+      <img class="right" width="50" height="50" src="https://img.icons8.com/ios/50/right--v1.png" alt="right--v1"/>
+         
+      <img class ="cross" width="30" height="30" src="https://img.icons8.com/fluency-systems-regular/48/000000/multiply.png" alt="multiply"/>
+</section>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<br>
+  <section class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <div class="col-lg-2">
+          <a href="https://www.youtube.com/watch?v=i6btvcOHSDw"><img src="images/image11.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+          
+        </div>
+  <div class="video-info-grid">
+    <div class="channel-picture">
+      <img class="profile-picture" src="https://yt3.ggpht.com/iNnumJf9fXcmMVOe6jbV-pi1uZl1W5fEiSwO_Nj7hcFhcuXcAsFCuuVh0y1VHfyBnDuf4nhF=s48-c-k-c0x00ffffff-no-rj">
+    </div>
+    <div class="video-info">
+      <p class="video-title">
+        Sometimes all they need is someone to listen to! | Are you happy
+      </p>
+      <p class="video-author">
+        
+Scoops
+      </p>
+      <p class="video-stats">
+        1,126 views  2 Dec 2023
+      </p>
+    </div>
+  </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+
+  <div class="video-preview">
+    <div class="thumbnail-row">
+    
+      <div class="col-lg-2">
+        <a href="https://www.youtube.com/watch?v=TXd5_jN2L4Y&t=1s"><img src="images/image12.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+        
+      </div>
+<div class="video-info-grid">
+  <div class="channel-picture">
+    <img class="profile-picture" src="https://yt3.ggpht.com/_hiDvvjTs4KBt7q6-SggkaD8lzILBcv9RUXWBUmKXsLkSu4S5YvmPoKSZn58VCEGw6Om6y3WKQ=s48-c-k-c0x00ffffff-no-rj">
+  </div>
+  <div class="video-info">
+    <p class="video-title">
+      Assassin&#39;s Creed Origins is OVER 5 YEARS OLD...
+    </p>
+    <p class="video-author">
+      
+MasterAssassin
+    </p>
+    <p class="video-stats">
+      1,95,594 views  19 Jul 2023
+    </p>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <div class="col-lg-2">
+      <a href="https://www.youtube.com/watch?v=e5Un5aGqEcs"><img src="images/image13.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+      
+    </div>
+<div class="video-info-grid">
+<div class="channel-picture">
+  <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKYIZsV44v61irygrP0xLoaR2E_h4NNUlHZRS5AgFA=s48-c-k-c0x00ffffff-no-rj">
+</div>
+<div class="video-info">
+  <p class="video-title">
+    Kingdom of the Deserters | Aquaman [4k, IMAX]
+  </p>
+  <p class="video-author">
+    RedSher
+  </p>
+  <p class="video-stats">
+    89,13,305 views  19 Oct 2016
+  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <div class="col-lg-2">
+      <a href="https://www.youtube.com/watch?v=rCxM4-tAMf8"><img src="images/image14.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+      
+    </div>
+<div class="video-info-grid">
+<div class="channel-picture">
+  <img class="profile-picture" src="https://yt3.ggpht.com/xK85pdYcKGS1NlNUHQewO4yF2vbTN0lhClOA9TU2ahkP_C4UdDIRRyuBWx3rxYC26IswtP1fUwQ=s48-c-k-c0x00ffffff-no-rj">
+</div>
+<div class="video-info">
+  <p class="video-title">
+    [Free] Nutcase22 x UK Drill Type Beat //Free UK Drill Instrumental"
+  </p>
+  <p class="video-author">
+    
+CRAZY BEZS
+  </p>
+  <p class="video-stats">
+    
+24 views  2 Dec 2023
+  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="video-preview">
+  <div class="thumbnail-row">
+    <div class="col-lg-2">
+      <a href="https://www.youtube.com/watch?v=QWC72URMKOQ"><img src="images/image15.png" width="343px" height="200px" style="border-radius: 10px;cursor: pointer;"></a>
+      
+    </div>
+<div class="video-info-grid">
+<div class="channel-picture">
+  <img class="profile-picture" src="https://yt3.ggpht.com/ytc/APkrFKYy7DuLGQcD2DjUy_dauZaf3LNSXj__FZw7LI3UhQ=s48-c-k-c0x00ffffff-no-rj">
+</div>
+<div class="video-info">
+  <p class="video-title">
+    Aal Ayaal - Reprise | Lyric Video - Solo | Dulquer Salmaan | Bejoy Nambiar | Trend Music
+  </p>
+  <p class="video-author">
+    
+TrendMusic
+
+  </p>
+  <p class="video-stats">
+    
+15 lakh views  6 years ago
+  </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+  <script> 
+  
+    // Getting video element using jQuery 
+    var video = $("#video"); 
+
+    // Check if video is ready to play 
+    $(video).on('canplay', function () { 
+        $(video).mouseenter(function () { 
+            $(this).get(0).play(); 
+        }).mouseleave(function () { 
+            $(this).get(0).pause(); 
+        }) 
+    }); 
+</script> 
+      
+    </main>
+  </body>
+</html>
