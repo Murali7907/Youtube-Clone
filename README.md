@@ -1,0 +1,1 @@
+This project is a simple Youtube clone implemented using HTML and CSS. It mimics the basic layout and functionalities of Twitter, including a sidebar with various options, a feed displaying posts, and widgets for additional features.
